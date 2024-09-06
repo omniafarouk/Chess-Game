@@ -17,9 +17,9 @@ This is the files of chess game which includes rather than the images in the beg
   for all classes of the project responsible for the GUI and UI
   
 The game features are :
-  It is a game between 2 players , when a player paly their turn the board is turned automatically so the other player can see their pieces and play as a normal view.
-  There is "undo" feature to undo the last move , implemented by memento design pattern.
-  The game shows the player all avalible moves of a piece once the player clicked on the piece.
-  The game shows a warning message if a move was made incorrectly based on the game logic or if a player tried to move the opponent pieces.
-  The game has no timer and only end when a player wins or in case of draws. 
+  1. It is a game between 2 players , when a player paly their turn the board is turned automatically so the other player can see their pieces and play as a normal view.
+  2. There is "undo" feature to undo the last move , implemented by memento design pattern.
+  3. The game shows the player all avalible moves of a piece once the player clicked on the piece.
+  4. The game shows a warning message if a move was made incorrectly based on the game logic or if a player tried to move the opponent pieces.
+  5. The game has no timer and only end when a player wins or in case of draws. 
   
