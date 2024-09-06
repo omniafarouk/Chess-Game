@@ -10,10 +10,10 @@ This is the files of chess game which includes rather than the images in the beg
   To identify which design patterns are used in the project.
   All added files/classes made especially for a design pattern is in this package.
   
-  3)chessCore
+  3) chessCore:
   for all backend classes responsible for the game logic
 
-  4)chessFrontend
+  4) chessFrontend:
   for all classes of the project responsible for the GUI and UI
   
 The game features are :
