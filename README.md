@@ -1,25 +1,38 @@
----> To run the game there is only one main (ChessCoreGui) in chessFrontend package which is the starting of the game logic.
+#### To run the game there is only one main (`ChessCoreGui`) in `chessFrontend` package which is the starting of the game logic.
 
-This is the files of chess game which includes rather than the images in the begining,
-4 packges : 
-  1) pieces :
-  for each piece , a seperate class
+The project is divided into four main packages, excluding the images:
 
-  2) design patterns:
-     
-  To identify which design patterns are used in the project.
-  All added files/classes made especially for a design pattern is in this package.
-  
-  3) chessCore:
-  for all backend classes responsible for the game logic
+1) `pieces`  
+> Contains a separate class for each piece.
 
-  4) chessFrontend:
-  for all classes of the project responsible for the GUI and UI
-  
-The game features are :
-  1. It is a game between 2 players , when a player paly their turn the board is turned automatically so the other player can see their pieces and play as a normal view.
-  2. There is "undo" feature to undo the last move , implemented by memento design pattern.
-  3. The game shows the player all avalible moves of a piece once the player clicked on the piece.
-  4. The game shows a warning message if a move was made incorrectly based on the game logic or if a player tried to move the opponent pieces.
-  5. The game has no timer and only end when a player wins or in case of draws. 
-  
+2) `designpatterns`  
+> To identify which design patterns are used in the project.  
+> All added files/classes made especially for a design pattern are in this package.  
+> Contains classes specifically created to implement and demonstrate software design patterns used in the project.  
+> For example, the **Memento Pattern** is applied to support the "Undo" functionality.
+
+3) `chessCore`  
+> Contains the backend logic for the game, including move validation, game state management, and win/draw detection.
+
+4) `chessFrontend`  
+> Handles the game's GUI and UI.  
+> The main class `ChessCoreGui`, located in this package, serves as the game’s entry point.
+
+---
+
+### Game Features
+
+1. **`Two-Player Gameplay`**  
+   It is a game between 2 players. When a player plays their turn, the board is turned automatically so the other player can see their pieces and play from a normal view.
+
+2. **`Undo Functionality`**  
+   This "undo" feature allows undoing the last move. Implemented by **Memento Design Pattern**.
+
+3. **`Visual Move Assistance`**  
+   The game shows the player all available moves of a piece once the piece is clicked on.
+
+4. **`Move Validation and Warnings`**  
+   The game shows a warning message if a move was made incorrectly based on the game logic or if a player tried to move the opponent's pieces.
+
+5. **`No Time Limit`**  
+   The game has no time limit. It only ends when a player wins or a draw is detected.
